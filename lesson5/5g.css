@@ -1,0 +1,22 @@
+p{
+  font-family: arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dark{
+  font-weight: bold;
+  margin-right: 4px;
+}
+.light{
+  color: rgb(78, 71, 71);
+}
+.link{
+  color: rgb(17, 86, 189);
+  cursor: pointer;
+}
+.advice{
+  margin-top: 7px;
+}
+.guide{
+  margin-top: 15px;
+}

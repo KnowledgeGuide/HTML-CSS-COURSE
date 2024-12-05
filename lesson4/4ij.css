@@ -1,0 +1,27 @@
+.Shadow-button{
+  background-color: green;
+  color: aliceblue;
+  border: none;
+  font-size: 18px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  cursor: pointer;
+  transition: padding left 4s,
+    padding-top 4s,
+    padding-bottom 4s,
+    padding-right 4s;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.40);
+}
+.Shadow-button:hover{
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+.Shadow-button:active{
+  margin-top: 4px;
+  margin-left: 4px;
+  box-shadow: none;
+}

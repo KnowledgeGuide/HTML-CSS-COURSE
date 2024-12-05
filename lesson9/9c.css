@@ -1,0 +1,12 @@
+p{
+  font-family: arial;
+}
+strong{
+  display: block;
+  margin-bottom: 10px;
+}
+.answer-the-ques{
+  border-style: solid;
+  width: 300px;
+  padding-left: 20px;
+}

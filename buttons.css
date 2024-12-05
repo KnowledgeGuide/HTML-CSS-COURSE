@@ -1,0 +1,123 @@
+    .subscribe-button{
+      background-color: rgb(200,0, 0);
+      color:white;
+      border:none;
+      height:30px;
+      width: 105px;
+      border-radius: 2px;
+      cursor:pointer;
+      margin-right: 12px;
+      transition: opacity 0.15s;
+      vertical-align: top;
+  
+    }
+  
+    .subscribe-button:hover{
+      opacity: 0.8;
+  
+    }
+  
+    .subscribe-button:active{
+      opacity: 0.4;
+      margin-top:2px ;
+      margin-bottom: 2px;
+      margin-left:2px;
+      box-shadow: none;
+  
+    }
+  
+    .join-button{
+      background-color: white;
+      border-color: rgb(35, 35, 190);
+      border-style: solid;
+      border-width: 1px;
+      color: blue;
+      height: 36px;
+      width:62px;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: background-color 0.15s,
+      color 0.15s;
+    }
+  
+    .join-button:hover{
+      background-color: blue;
+      color: white;
+    }
+    
+    .join-button:active{
+      opacity: 0.7;
+    }
+    .tweet-button{
+      background-color: rgb(16, 155, 235);
+      border: none;
+      color: rgb(248, 248, 248);
+      border-radius: 18px;
+      font-weight: bold;
+      font-size: 18px;
+      padding-left: 8px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 8px;
+      cursor: pointer;
+      vertical-align: top;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.65);
+  
+  
+    }
+    .tweet-button:active{
+      opacity: 0.7;
+      margin-top: 4px;
+      margin-left: 2px;
+      box-shadow: none;
+       
+    }
+  
+    .cart-button{
+      background-color: rgb(253, 216, 23);
+      border: none;
+      border-radius: 15px;
+      height: 30px;
+      width: 150px;
+      margin-top: 8px;
+      cursor: pointer;
+    }
+  
+    .started-button{
+      background-color: rgb(143, 50, 230);
+      border: none;
+      color: antiquewhite;
+      height: 20px;
+      width: 80px;
+      font-size: 8px; 
+      font-weight: bold ;
+      border-radius: 2px;
+      margin-top: 8px;  
+    }
+  
+    .download-button{
+      background-color: white;
+      color: rgb(108, 117, 125);
+      height: 20px;
+      width: 80px;
+      font-size: 8px; 
+      font-weight: bold ;
+      border-radius: 2px;
+      border-color: rgba(42, 39, 39, 0.404);
+      border-style: solid;
+      border-width: 1px;
+      margin-top: 8px;
+      margin-left: 8px;
+      transition: box-shadow 0.15s; 
+    }
+    .download-button:hover{
+      box-shadow: 5px, 5px, 10px, rgba(0, 0, 0, 0.65);
+    }
+    .download-button:active{
+      opacity:0.6;
+      margin-right: 4px;
+      margin-top: 4px;
+      box-shadow: none;
+  
+    }
+  

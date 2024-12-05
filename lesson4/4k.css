@@ -1,0 +1,23 @@
+.one-button{
+  background-color: green;
+  color: aliceblue;
+  border: none;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  transition: padding 0.15s,
+   margin 0.15s;
+}
+
+.one-button:hover{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
